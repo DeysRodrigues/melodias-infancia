@@ -32,7 +32,7 @@ const Hero = () => {
 
             <div className="flex flex-col gap-4">
                 <p className="font-bold">
-                    Em um mundo onde as notas musicais ecoam como mensagens de esperança e expressão, nasce o projeto social "Melodias da Infância".
+                    Em um mundo onde as notas musicais ecoam como mensagens de esperança e expressão, nasce o projeto social Melodias da Infância.
                 </p>
             
                 <Button >Saber mais</Button>

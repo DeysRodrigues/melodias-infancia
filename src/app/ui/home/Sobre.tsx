@@ -19,7 +19,7 @@ const Sobre: React.FC = () => {
                     <div className="px-2">
                         <h2 className="text-2xl w-full text-center">Sobre </h2>
                         <p>
-                            "Melodias da Infância" é um projeto inovador que busca transformar a realidade de crianças e adolescentes das escolas públicas de José de Freitas através da arte. Este projeto visa proporcionar uma experiência enriquecedora, promovendo a inclusão social e a diversidade cultural por meio de oficinas de artes integradas.
+                            Melodias da Infância é um projeto inovador que busca transformar a realidade de crianças e adolescentes das escolas públicas de José de Freitas através da arte. Este projeto visa proporcionar uma experiência enriquecedora, promovendo a inclusão social e a diversidade cultural por meio de oficinas de artes integradas.
                         </p>
                     </div>
                 </TabsContent>
