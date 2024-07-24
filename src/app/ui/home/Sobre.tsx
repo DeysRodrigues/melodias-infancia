@@ -27,9 +27,9 @@ const Sobre: React.FC = () => {
                     <div>
                         <h2 className="text-2xl w-full text-center">Objetivos </h2>
                         <p>
-                            O principal objetivo do "Melodias da Infância" é promover a transformação através da arte, criando um ambiente onde os alunos possam expressar-se e descobrir novas habilidades. Ao construir pontes de diálogo entre diferentes expressões artísticas e culturais, o projeto visa resgatar e valorizar a cultura local, promovendo a inclusão e acessibilidade para todos os participantes.
+                            O principal objetivo do Melodias da Infância é promover a transformação através da arte, criando um ambiente onde os alunos possam expressar-se e descobrir novas habilidades. Ao construir pontes de diálogo entre diferentes expressões artísticas e culturais, o projeto visa resgatar e valorizar a cultura local, promovendo a inclusão e acessibilidade para todos os participantes.
 
-                            Além disso, o projeto busca democratizar o acesso à arte, oferecendo oportunidades que muitas vezes não estão disponíveis para a comunidade escolar de José de Freitas. Com oficinas mediadas por profissionais capacitados, "Melodias da Infância" tem como metas estimular a criatividade, desenvolver competências artísticas e culturais, e contribuir para a formação de cidadãos críticos e conscientes.
+                            Além disso, o projeto busca democratizar o acesso à arte, oferecendo oportunidades que muitas vezes não estão disponíveis para a comunidade escolar de José de Freitas. Com oficinas mediadas por profissionais capacitados, Melodias da Infância tem como metas estimular a criatividade, desenvolver competências artísticas e culturais, e contribuir para a formação de cidadãos críticos e conscientes.
 
                             O projeto também atua na esfera psicoeducativa através de um grupo dedicado a promover discussões e atividades sobre temas pertinentes à realidade dos alunos, abordando questões como inclusão, diversidade e cidadania. Este componente visa apoiar o desenvolvimento emocional e social dos participantes, fortalecendo a capacidade de enfrentamento de desafios pessoais e coletivos.
 
