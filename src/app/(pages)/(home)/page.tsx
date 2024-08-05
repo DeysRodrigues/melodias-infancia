@@ -8,8 +8,8 @@ import Sobre from "@/app/ui/home/Sobre";
 
 export default function Home() {
   return (
-    <section className=" flex flex-col mb-4 gap bg-custom-image md:bg-custom-image-desktop ">
-      <div className=" px-8 md:px-32">
+    <section className=" flex flex-col mb-4 gap bg-custom-image ">
+      <div className=" px-8 md:px-32  md:bg-custom-image-desktop">
         <Header />
         <hr className="border-t-1 border-primary" />
         <Hero></Hero>
