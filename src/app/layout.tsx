@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Baloo_Tamma_2 } from "next/font/google";
-import { ThemeProvider } from "@/components/theme-provider"
+import { ThemeProvider } from "@/app/components/theme-provider"
 import "./globals.css";
 
 const inter = Baloo_Tamma_2({ subsets: ["latin"] });
