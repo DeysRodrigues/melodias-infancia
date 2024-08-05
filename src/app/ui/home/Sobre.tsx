@@ -4,7 +4,7 @@ import {
     TabsContent,
     TabsList,
     TabsTrigger,
-} from "@/components/ui/tabs"
+} from "@/app/components/ui/tabs"
 
 
 const Sobre: React.FC = () => {

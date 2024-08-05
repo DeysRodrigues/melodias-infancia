@@ -4,8 +4,8 @@ import {
     ResizableHandle,
     ResizablePanel,
     ResizablePanelGroup,
-} from "@/components/ui/resizable"
-import TitleH2 from "@/components/ui/titleH2";
+} from "@/app/components/ui/resizable"
+import TitleH2 from "@/app/components/ui/titleH2";
 import Image from "next/image";
 import { useState } from "react";
 import { Modal } from 'react-responsive-modal';

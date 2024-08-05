@@ -1,6 +1,6 @@
 'use client';
 
-import { Button } from "@/components/ui/button";
+import { Button } from "@/app/components/ui/button";
 import Notes from "../../../../public/icons/musicalnotes.svg"
 import { Amatic_SC, Cookie } from "next/font/google";
 

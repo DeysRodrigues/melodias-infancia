@@ -6,7 +6,7 @@ import {
     MenubarSeparator,
     MenubarShortcut,
     MenubarTrigger,
-} from "@/components/ui/menubar"
+} from "@/app/components/ui/menubar"
 import ButtonTheme from "./buttonTheme";
 import { Instagram } from "lucide-react";
 

@@ -1,9 +1,9 @@
 "use client"
 
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import CardPessoa from "@/components/ui/cardPessoa";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import TitleH2 from "@/components/ui/titleH2";
+import { Card, CardContent, CardHeader } from "@/app/components/ui/card";
+import CardPessoa from "@/app/components/ui/cardPessoa";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/app/components/ui/tabs";
+import TitleH2 from "@/app/components/ui/titleH2";
 import { Guitar, Handshake, Instagram, Linkedin, MessageCircleMore } from "lucide-react";
 import { useState } from "react";
 import { people } from '@/lib/data-pessoa'
@@ -90,8 +90,8 @@ const Equipe = () => {
                     <TabsTrigger value="psicologos">Psicologos</TabsTrigger>
                     <TabsTrigger value="devs">Devs</TabsTrigger>
                 </TabsList>
-                <div>
-                    <TabsContent value="gestao">
+                <div >
+                    <TabsContent value="gestao" className="md:flex gap-3 flex-wrap justify-center">
                     {filterGest.map((person) => (
                              <CardPessoa
                              key={person.id}
@@ -106,7 +106,7 @@ const Equipe = () => {
                          />
                         ))}
                     </TabsContent>
-                    <TabsContent value="professores">
+                    <TabsContent value="professores" className="md:flex gap-3 flex-wrap justify-center">
                     {filterProf.map((person) => (
                              <CardPessoa
                              key={person.id}
@@ -120,7 +120,7 @@ const Equipe = () => {
                          />
                         ))}
                     </TabsContent>
-                    <TabsContent value="psicologos">
+                    <TabsContent value="psicologos" className="md:flex gap-3 flex-wrap justify-center">
                     {filterPsi.map((person) => (
                              <CardPessoa
                              key={person.id}
@@ -135,7 +135,7 @@ const Equipe = () => {
                          />
                         ))}
                     </TabsContent>
-                    <TabsContent value="devs">
+                    <TabsContent value="devs" className="md:flex gap-3 flex-wrap justify-center">
                     {filterDev.map((person) => (
                              <CardPessoa
                              key={person.id}
@@ -144,7 +144,7 @@ const Equipe = () => {
                              descriptionPessoa={person.bio}
                              linkPessoa={person.imageLink}
                              altPessoa={person.alt}        
-                             redeSocial={<Linkedin />}
+                             redeSocial={<Instagram />}
                              iconBonus={<Linkedin />}
                          />
                         ))}

@@ -1,4 +1,4 @@
-import TitleH2 from "@/components/ui/titleH2";
+import TitleH2 from "@/app/components/ui/titleH2";
 import Link from "next/link";
 
 const Footer
