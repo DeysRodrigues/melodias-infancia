@@ -35,6 +35,14 @@
       --ring: 224 71.4% 4.1%;
 
       --radius: 1.5rem;
+
+  
+      .bg-custom-image-desktop {
+        background-image: url('/images/bg/bg-desktop.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
     }
 
     .dark {
@@ -65,19 +73,17 @@
       --border: 215 27.9% 16.9%;
       --input: 215 27.9% 16.9%;
       --ring: 216 12.2% 83.9%;
+
+    
+  
+      .bg-custom-image-desktop {
+        background-image: url('/images/bg/bg-desktop-dark.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
     }
-    .bg-custom-image {
-      background-image: url('./Design.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
-    .bg-custom-image-desktop {
-      background-image: url('./bg-desktop.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
+   
   }
 
   @layer base {
