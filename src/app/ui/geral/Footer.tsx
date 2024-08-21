@@ -1,10 +1,11 @@
 import TitleH2 from "@/app/components/ui/titleH2";
+import { url } from "inspector";
 import Link from "next/link";
 
 const Footer
     = () => {
         return (
-            <section className="flex flex-col gap-6 p-7  bg-slate-50 ">
+            <section className="flex flex-col gap-6 p-7  bg-card rounded-2xl mb-2 ">
                 <TitleH2 title="  Melodias da Infancia"></TitleH2>
                 <div>
 
@@ -51,8 +52,9 @@ const Footer
                     </div>
                 </div>
                 <div className="text-center">
-                    <span><Link href="./">Feito com ❤️ por Deys Rodrigues</Link></span>
-                    <p>©️Todos os direitos reservados, <br /> Fundação ProArte, 2024.</p>
+                 
+                    <p>©️Todos os direitos reservados Fundação ProArte, 2024.</p>
+                    <span className="text-sm"> <Link href="https://www.deys.space">Feito com ❤️ by <span className="text-primary">Deys Rodrigues</span> </Link>   </span>
                     </div>
             </section>
         );
