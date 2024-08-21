@@ -31,11 +31,13 @@ const Hero = () => {
          
 
             <div className="flex flex-col gap-4">
-                <p className="font-bold">
+                <p className="font-bold text-lg">
                     Em um mundo onde as notas musicais ecoam como mensagens de esperança e expressão, nasce o projeto social Melodias da Infância.
+                
                 </p>
+                <p className="bg-slate-50 text-gray-900 p-3 rounded-xl">O Projeto Melodias da Infância é uma iniciativa social dedicada ao desenvolvimento integral de crianças e adolescentes por meio da música e do suporte psicossocial. A proposta visa transformar a vida de jovens em situação de vulnerabilidade, oferecendo um espaço seguro onde podem expressar suas emoções e cultivar suas habilidades musicais.</p>
             
-                <Button >Saber mais</Button>
+                <Button>Saber mais</Button>
             </div>
 
         </section>
