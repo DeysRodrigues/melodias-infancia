@@ -6,12 +6,20 @@ const Parceiros = () => {
 
         <section>
             <TitleH2 title="Parceiros"></TitleH2>
-            <div>
+            <div className="flex justify-center">
                 <Image
                     src="/images/parceiros/parceiros-jf.png"
                     alt="Logo da prefeitura de José de Freitas"
                     width={300}
                     height={300}
+                    style={{ width: 'auto', height: '100%' }}
+                    className="object-cover"
+                />
+                  <Image
+                    src="/images/parceiros/parceiros-proart.png"
+                    alt="Logo da prefeitura de José de Freitas"
+                    width={150}
+                    height={150}
                     style={{ width: 'auto', height: '100%' }}
                     className="object-cover"
                 />
