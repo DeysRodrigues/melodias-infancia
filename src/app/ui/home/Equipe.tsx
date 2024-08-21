@@ -17,7 +17,7 @@ const Equipe = () => {
         <section className="flex flex-col gap-3">
             <TitleH2 title="Equipe"></TitleH2>
             <Tabs defaultValue="gestao" className="w-full">
-                <TabsList className="w-full flex overflow-x-scroll whitespace-nowrap">
+                <TabsList className="w-full flex overflow-x-scroll whitespace-nowrap md:overflow-auto">
                     <TabsTrigger value="gestao">Gestão</TabsTrigger>
                     <TabsTrigger value="professores">Professores</TabsTrigger>
                     <TabsTrigger value="psicologos">Psicologos</TabsTrigger>
@@ -33,9 +33,9 @@ const Equipe = () => {
                              descriptionPessoa={person.bio}
                              linkPessoa={person.imageLink}
                              altPessoa={person.alt}
-                             
-                             redeSocial={<Instagram/>}
-                             iconBonus={<Linkedin />}
+                             linkSocial={person.socialLink}
+                             linkSocial2={person.socialLink2}
+                            
                          />
                         ))}
                     </TabsContent>
@@ -48,8 +48,9 @@ const Equipe = () => {
                              descriptionPessoa={person.bio}
                              linkPessoa={person.imageLink}
                              altPessoa={person.alt}
-                             redeSocial={<Linkedin />}
-                             iconBonus={<Linkedin />}
+                             linkSocial={person.socialLink}
+                             linkSocial2={person.socialLink2}
+                            
                          />
                         ))}
                     </TabsContent>
@@ -63,8 +64,9 @@ const Equipe = () => {
                              linkPessoa={person.imageLink}
                              altPessoa={person.alt}
                              
-                             redeSocial={<Linkedin />}
-                             iconBonus={<Linkedin />}
+                             linkSocial={person.socialLink}
+                             linkSocial2={person.socialLink2}
+                            
                          />
                         ))}
                     </TabsContent>
@@ -77,8 +79,9 @@ const Equipe = () => {
                              descriptionPessoa={person.bio}
                              linkPessoa={person.imageLink}
                              altPessoa={person.alt}        
-                             redeSocial={<Instagram />}
-                             iconBonus={<Linkedin />}
+                             linkSocial={person.socialLink}
+                             linkSocial2={person.socialLink2}
+                            
                          />
                         ))}
                     </TabsContent>
