@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Amatic_SC } from "next/font/google";
 import { Card, CardContent, CardHeader } from "./card";
+import Link from "next/link";
+import { Instagram, User } from "lucide-react";
 
 const amatic = Amatic_SC({
   weight: ['400', '700'],
@@ -10,9 +12,9 @@ const amatic = Amatic_SC({
 
 interface CardPessoaProps {
   linkPessoa: string;
+  linkSocial: string;
+  linkSocial2: string;
   altPessoa: string;
-  redeSocial: React.ReactNode;
-  iconBonus: React.ReactNode;
   namePessoa: string;
   titlePessoa: string;
   descriptionPessoa: string;
@@ -21,12 +23,13 @@ interface CardPessoaProps {
 
 const CardPessoa: React.FC<CardPessoaProps> = ({
   linkPessoa,
+  linkSocial,
+  linkSocial2,
   altPessoa,
-  redeSocial,
-  iconBonus,
   namePessoa,
   titlePessoa,
   descriptionPessoa,
+
 }) => {
   return (
 
@@ -43,12 +46,21 @@ const CardPessoa: React.FC<CardPessoaProps> = ({
         </div>
 
         <div className="flex flex-col gap-2">
-       
+
           <span className="bg-white rounded-full w-8 h-8 flex items-center justify-center">
-            {redeSocial}
+            <Link href={linkSocial}>
+           
+             <Instagram className="hover:text-primary text-black"></Instagram>
+          
+            </Link>
           </span>
           <span className="bg-white rounded-full w-8 h-8 flex items-center justify-center">
-            {iconBonus}
+          <Link href={linkSocial2}>
+           
+           <User className="hover:text-primary text-black"></User>
+           
+        
+          </Link>
           </span>
 
         </div>
@@ -68,7 +80,6 @@ const CardPessoa: React.FC<CardPessoaProps> = ({
           </p>
         </CardContent>
       </div>
-
     </Card>
   );
 }
