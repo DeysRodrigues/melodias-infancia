@@ -52,7 +52,7 @@ const Header = () => {
 
                 <span className="rounded-full p-2 bg-white">
                     
-                    <Instagram strokeWidth={1.25} />
+                    <Instagram strokeWidth={1.25} className="text-primary"/>
                 </span>
             </div>
 
