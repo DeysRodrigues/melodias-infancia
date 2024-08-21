@@ -9,22 +9,22 @@ import {
 
 const Sobre: React.FC = () => {
     return (
-        <section className="bg-neutral-50 p-4 rounded-md">
+        <section className="bg-card p-4 rounded-md">
             <Tabs defaultValue="sobre" className="w-full">
                 <TabsList className="w-full">
                     <TabsTrigger value="sobre">Sobre</TabsTrigger>
                     <TabsTrigger value="objetivos">Objetivos</TabsTrigger>
                 </TabsList>
-                <TabsContent value="sobre">
-                    <div className="px-2">
+                <TabsContent value="sobre" className="md:px-10">
+                    <div className="m-5">
                         <h2 className="text-2xl w-full text-center">Sobre </h2>
                         <p>
                             Melodias da Infância é um projeto inovador que busca transformar a realidade de crianças e adolescentes das escolas públicas de José de Freitas através da arte. Este projeto visa proporcionar uma experiência enriquecedora, promovendo a inclusão social e a diversidade cultural por meio de oficinas de artes integradas.
                         </p>
                     </div>
                 </TabsContent>
-                <TabsContent value="objetivos">
-                    <div>
+                <TabsContent value="objetivos"  className="md:px-10">
+                    <div className="m-5">
                         <h2 className="text-2xl w-full text-center">Objetivos </h2>
                         <p>
                             O principal objetivo do Melodias da Infância é promover a transformação através da arte, criando um ambiente onde os alunos possam expressar-se e descobrir novas habilidades. Ao construir pontes de diálogo entre diferentes expressões artísticas e culturais, o projeto visa resgatar e valorizar a cultura local, promovendo a inclusão e acessibilidade para todos os participantes.
