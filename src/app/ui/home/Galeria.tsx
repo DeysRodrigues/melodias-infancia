@@ -40,7 +40,7 @@ const Galeria: React.FC = () => {
                 <ResizablePanel defaultSize={50}>
                     <div className="relative w-full cursor-pointer h-[250px]" onClick={() => openModal('/images/projeto-01.jpg')}>
                         <Image
-                            src="/images/projeto-01.jpg"
+                            src="/images/projetos-galery/projeto-01.jpg"
                             fill
                             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
                             alt="seil"
