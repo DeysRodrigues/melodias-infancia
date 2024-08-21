@@ -8,7 +8,7 @@ const Parceiros = () => {
             <TitleH2 title="Parceiros"></TitleH2>
             <div>
                 <Image
-                    src="/images/parceiros-jf.png"
+                    src="/images/parceiros/parceiros-jf.png"
                     alt="Logo da prefeitura de José de Freitas"
                     width={300}
                     height={300}
