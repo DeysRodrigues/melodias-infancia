@@ -20,10 +20,10 @@ const Hero = () => {
 
         <section className="flex flex-col gap-3 py-20">
             <section className="flex">
-            <div>
+            <div className="flex flex-col gap-4">
                 <span className={`${amatic.className} text-3xl text-primary`}>projeto <br /></span>
                 <span className={`${amatic.className} text-4xl`}>melodias</span>
-                <h1 className={`${amatic.className} text-6xl`}>DA INFANCIA</h1>
+                <h1 className={`${amatic.className} text-6xl`}>DA INFÂNCIA</h1>
                 <span> <br />👧👧🏿👦🏽👦🏽 🎶🎵</span>
             </div>
 
