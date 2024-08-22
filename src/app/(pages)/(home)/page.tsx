@@ -8,7 +8,7 @@ import Sobre from "@/app/ui/home/Sobre";
 
 export default function Home() {
   return (
-    <section className=" flex flex-col mb-4 gap-10 bg-custom-image-desktop md:px-20">
+    <section className=" flex flex-col mb-4 gap-10 bg-custom-image-desktop md:px-20" id="home">
       <div className=" px-8 md:px-32">
         <Header />
         <hr className="border-t-1 border-primary" />
