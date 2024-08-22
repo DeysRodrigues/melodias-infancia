@@ -4,9 +4,9 @@ import Image from "next/image";
 const Parceiros = () => {
     return (
 
-        <section>
+        <section id="">
             <TitleH2 title="Parceiros"></TitleH2>
-            <div className="flex justify-center">
+            <div className="flex flex-col justify-center md:flex-row">
                 <Image
                     src="/images/parceiros/parceiros-jf.png"
                     alt="Logo da prefeitura de José de Freitas"
@@ -18,9 +18,8 @@ const Parceiros = () => {
                   <Image
                     src="/images/parceiros/parceiros-proart.png"
                     alt="Logo da prefeitura de José de Freitas"
-                    width={150}
-                    height={150}
-                    style={{ width: 'auto', height: '100%' }}
+                    width={200}
+                    height={100}
                     className="object-cover"
                 />
             </div>
