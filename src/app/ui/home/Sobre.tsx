@@ -9,7 +9,7 @@ import {
 
 const Sobre: React.FC = () => {
     return (
-        <section className="bg-card p-4 rounded-md">
+        <section className="bg-card p-4 rounded-md" id="sobre">
             <Tabs defaultValue="sobre" className="w-full">
                 <TabsList className="w-full">
                     <TabsTrigger value="sobre">Sobre</TabsTrigger>
