@@ -14,7 +14,7 @@ const Equipe = () => {
     const filterPsi = people.filter(person => person.tags.includes('psicologo'));
 
     return (
-        <section className="flex flex-col gap-3">
+        <section className="flex flex-col gap-3" id="equipe">
             <TitleH2 title="Equipe"></TitleH2>
             <Tabs defaultValue="gestao" className="w-full">
                 <TabsList className="w-full flex overflow-x-scroll whitespace-nowrap md:overflow-auto">
