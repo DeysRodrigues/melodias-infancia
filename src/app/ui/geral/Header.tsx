@@ -9,6 +9,7 @@ import {
 } from "@/app/components/ui/menubar"
 import ButtonTheme from "./buttonTheme";
 import { Instagram } from "lucide-react";
+import Link from "next/link";
 
 
 const Header = () => {
@@ -18,30 +19,37 @@ const Header = () => {
 
             <Menubar className="">
                 <MenubarMenu>
-                    <MenubarTrigger>Home</MenubarTrigger>
+                    <MenubarTrigger> <Link href="/#home">
+                        Home</Link> </MenubarTrigger>
                 </MenubarMenu>
 
                 <MenubarMenu>
-                    <MenubarTrigger>Sobre</MenubarTrigger>
+                    <MenubarTrigger>
+                        <Link href="/#sobre">
+                            Sobre
+                        </Link>
+                    </MenubarTrigger>
 
                 </MenubarMenu>
 
                 <MenubarMenu>
-                    <MenubarTrigger>Equipe</MenubarTrigger>
+                    <MenubarTrigger> <Link href="/#equipe">
+                        Equipe
+                    </Link></MenubarTrigger>
 
                 </MenubarMenu>
-                
+
                 <MenubarMenu>
                     <MenubarTrigger>Mais</MenubarTrigger>
                     <MenubarContent>
-                        <MenubarItem>
-                            New Tab <MenubarShortcut>⌘T</MenubarShortcut>
-                        </MenubarItem>
-                        <MenubarItem>New Window</MenubarItem>
+
+                        <MenubarItem>Contato</MenubarItem>
                         <MenubarSeparator />
-                        <MenubarItem>Share</MenubarItem>
+                        <MenubarItem>Endereço</MenubarItem>
                         <MenubarSeparator />
-                        <MenubarItem>Print</MenubarItem>
+                        <MenubarItem>Galeria</MenubarItem>
+                        <MenubarSeparator />
+                        <MenubarItem>Creditos</MenubarItem>
                     </MenubarContent>
                 </MenubarMenu>
 
@@ -49,14 +57,13 @@ const Header = () => {
             </Menubar>
             <div className="flex flex-col gap-2">
                 <ButtonTheme></ButtonTheme>
-
                 <span className="rounded-full p-2 bg-white">
-                    
-                    <Instagram strokeWidth={1.25} className="text-primary"/>
+                    <Link href="https://www.instagram.com/melodiasdainfancia/">
+                        <Instagram strokeWidth={1.25} className="text-primary" />
+                    </Link>
                 </span>
+
             </div>
-
-
 
         </header>
 
